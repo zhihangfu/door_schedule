@@ -47,10 +47,13 @@ for entity in acad.ActiveDocument.ModelSpace:
 
 
 # writing schedule to a csv file
-fileName = "门窗表.csv"
+fileName = acad.ActiveDocument.name.replace(".dwg", "_") + "门窗表.csv"
 filePath = acad.ActiveDocument.path
 path = os.path.join(filePath, fileName)
 with open(path, 'w', newline='') as f:
 	w = csv.writer(f)
 	w.writerow(["门窗编号","数量"])
 	w.writerows(schedule.items())
+
+# open the file just saved
+os.startfile(path)
