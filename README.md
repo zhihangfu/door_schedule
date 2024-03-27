@@ -17,5 +17,5 @@ from door & window tag blocks →            |  → to table
 1. open the autocad drawing containing the door tags (windows will recognise it as the active doc of "AutoCAD.Application");
 2. run the code;
    - for the `.py` version, successful installation of [`pywin32`](https://pypi.org/project/pywin32/) package is a prerequisite;
-   - for the `.exe` version, just double-click and run, dependencies are already packaged;
+   - for the `.exe` version, download from the "releases" section of the repo page, double-click and run, dependencies are already packaged;
 4. harvest your data from the automatically opened `.csv` file.
