@@ -14,6 +14,8 @@ from door tag blocks →            |  → to table
 
 ## how to run?
 
-1. open the autocad drawing containing the door tags (windows will recognise it as the active doc of "AutoCAD.Application").
-2. run the code.
-3. harvest your data.
+1. open the autocad drawing containing the door tags (windows will recognise it as the active doc of "AutoCAD.Application");
+2. run the code;
+   - for `.py` version, pre-installation of `win32com.client` package is needed;
+   - for `.exe` version) just double-click and run, dependencies are already packaged;
+4. harvest your data.
