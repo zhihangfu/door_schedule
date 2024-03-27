@@ -5,7 +5,7 @@ it is always a tedious work to make door & window schedules by manually searchin
 - this python script interacts with the active autocad drawing, and searches for block instances with a given named. it then extracts given attributes (by name) as table columns.
 it will save and open a `.csv` file as the result.
 
-from door tags blocks →            |  → to table
+from door tag blocks →            |  → to table
 :-------------------------:|:-------------------------:
 ![what to extract](https://github.com/zhihangfu/door_schedule/assets/35970192/39e5a268-f023-4bfd-9411-a9eb7f2cb742)  |  ![what you get](https://github.com/zhihangfu/door_schedule/assets/35970192/896cc078-2fa7-41bc-969d-9ebae50b11e8)
 
